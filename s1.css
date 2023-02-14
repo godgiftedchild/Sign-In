@@ -1,0 +1,135 @@
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height : 100vh;
+
+}
+
+.card{
+    min-width: 300px;
+    min-height: 300px;
+    border : 5px solid;
+    box-shadow: 60px -16px teal;
+
+
+}
+
+input::placeholder{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+h2{
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 50px;
+    font-size: 30px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap : 10px;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+button{
+    display: flex;
+    width : 80%;
+    padding : 5px;
+    margin: 50px auto;
+    background-color: teal;
+    border : none;
+    border-radius: 100px;
+    color:azure;
+    cursor: pointer;
+    border:4px solid black;
+    transition: all .10s ease;
+}
+button:hover{
+    transform: scale(0.95);
+}
+span{
+    margin:auto;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    
+}
+.dont{
+    text-decoration: none;
+    color: #888888;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.line{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width : 100%;
+    height : 0.1px;
+    border: none;
+    background-color: #888888;
+    position: relative;
+
+}
+.line::before{
+    content: 'OR';
+    position: absolute;
+    top : -15px;
+    left : 40%;
+    width : 60px;
+    height: 30px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 500;
+    color: #888888;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.links{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+    
+}
+a{
+    text-decoration: none;
+}
+.google{
+    border: 2px solid #888888;
+    border-radius: 10px;
+    padding : 10px;
+    color: black;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    gap: 15px;
+    
+
+
+}
+.facebook{
+    background-color: teal;
+    border: 2px solid;
+    border-radius: 10px;
+    padding : 10px;
+    color: white;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    gap: 15px;
+}
+.facebook img{
+    width : 20px;
+}
+.google img{
+    width : 20px;
+}
